@@ -21,9 +21,8 @@ A production-grade, cinematic portfolio designed for **Yash Tiwari**, B.Tech stu
 
 Yash can customize his portfolio at any time without touching code, editing JSON, or needing a database.
 
-### 🔑 Default Credentials
-- **Username**: `admin`
-- **Password**: `yash@admin2026`
+### 🔑 Authentication
+- Access credentials are provided privately to the client by the administrator.
 
 ### 🚪 How to Open the Admin Panel
 1. **Footer Button**: Scroll to the footer and click the **`⚙️`** icon next to the "Get in Touch" button.

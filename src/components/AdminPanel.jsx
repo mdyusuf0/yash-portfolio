@@ -176,19 +176,7 @@ const AdminPanel = () => {
               </div>
             </div>
 
-            {/* Quick credentials helper for client */}
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-3.5 mb-6 text-xs font-mono text-white/80">
-              <div className="flex items-center justify-between text-[11px] text-[#f50604] font-bold uppercase mb-1">
-                <span>Default Credentials</span>
-                <span className="text-white/40 font-normal">Non-tech access</span>
-              </div>
-              <div className="space-y-0.5 text-white/70">
-                <p>Username: <strong className="text-white">admin</strong></p>
-                <p>Password: <strong className="text-white">yash@admin2026</strong></p>
-              </div>
-            </div>
-
-            <form onSubmit={handleLogin} className="space-y-4">
+            <form onSubmit={handleLogin} className="space-y-4 mt-6">
               <div>
                 <label className="block text-xs font-mono text-white/70 mb-1.5 uppercase tracking-wider">
                   Username
@@ -197,7 +185,7 @@ const AdminPanel = () => {
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  placeholder="admin"
+                  placeholder="Enter username"
                   required
                   className="w-full bg-black/60 border border-white/20 rounded-xl px-4 py-2.5 text-white text-sm focus:border-[#f50604] focus:outline-none transition-colors"
                 />
